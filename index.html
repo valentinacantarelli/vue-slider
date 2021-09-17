@@ -13,14 +13,14 @@
     <body>
         <div id="root">
             <div class="carousel">
-                <div class="bw arrow" @click="avanti()">
+                <div class="bw arrow" @click="indietro()">
                     <i class="fas fa-caret-left"></i>
                 </div>
                 <div class="carouselImg">
                     <img :src="img[imgIndice]" alt="green">
                     <div class="dottedCounter"></div>
                 </div>
-                <div class="fw arrow"  @click="indietro()">
+                <div class="fw arrow"  @click="avanti()">
                     <i class="fas fa-caret-right"></i>
                 </div>
             </div>
