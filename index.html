@@ -18,7 +18,9 @@
                 </div>
                 <div class="carouselImg">
                     <img :src="img[imgIndice]" alt="green">
-                    <div class="dottedCounter"></div>
+                    <div class="dottedCounter">
+                        <i class="fas fa-circle" v-for="(image,index) in img" :class="selectedImg(index)" @click="changeImg(index)"></i>
+                    </div>
                 </div>
                 <div class="fw arrow"  @click="avanti()">
                     <i class="fas fa-caret-right"></i>

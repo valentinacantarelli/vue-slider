@@ -36,3 +36,21 @@ img{
     font-size: 30px;
     align-content: center;
 }
+.dottedCounter{
+    position: absolute;
+    bottom:20px;
+    left:50%;
+    transform: translate(-50%);
+    background-color: rgb(17, 100, 100);
+    padding:5px 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(66, 95, 83, 0.692);
+}
+.fa-circle{
+    color:white;
+    font-size: 13px;
+    padding:0 5px;
+}
+.active{
+    color: rgb(146, 218, 208);
+}

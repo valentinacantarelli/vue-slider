@@ -18,14 +18,23 @@ const app=new Vue(
             avanti:function(){
                 this.imgIndice++;
                 if(this.imgIndice>=this.img.length){
-                   this.imgIndice=0;
+                    this.imgIndice=0;
                 }
             },
             indietro:function(){
                 this.imgIndice--;
-                if(this.imgIndice== -1);{
+                if(this.imgIndice== -1){
                     this.imgIndice = this.img.length -1;
                 };
+            },
+            selectedImg:function(selectedcImg){
+                if(this.imgIndice==selectedcImg){
+                    return "active";
+                }
+                return "";
+            },
+            changeImg:function(index){
+
             }
         }
     }
