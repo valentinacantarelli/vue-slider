@@ -33,8 +33,9 @@ img{
     margin-top: 150px;
 }
 .arrow{
-    font-size: 30px;
+    font-size: 70px;
     align-content: center;
+    color:purple;
 }
 .dottedCounter{
     position: absolute;
@@ -44,13 +45,14 @@ img{
     background-color: rgb(17, 100, 100);
     padding:5px 5px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(66, 95, 83, 0.692);
+    box-shadow: 2px 2px 2px rgba(28, 44, 37, 0.692);
 }
 .fa-circle{
     color:white;
     font-size: 13px;
     padding:0 5px;
+   
 }
 .active{
-    color: rgb(146, 218, 208);
+    color: purple;
 }
